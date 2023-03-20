@@ -2,7 +2,7 @@
 GLT (Gougle Language Transformer) - 1 is the first version a language AI model developped by Gougle based to GPT-3.5-Turbo/GPT-4.
 
 # Usages
-To use GLT-1, you can use `pip` for `python` or `cdn` to `javascript`.<br>
+To use GLT-1, you can use `pip` for `python` or `cdn` for `javascript`.<br>
 With `pip` in `cmd` :<br>
 ```
 pip install gougleai
@@ -13,7 +13,7 @@ Or with `cdn` in `html` page :<br>
 ```
 
 # Exemple
-## In `python` :<br>
+### In `python` :<br>
 ```
 import gougleai
 
@@ -29,13 +29,13 @@ response = gougleai.complete(model = model, prompt = prompt, tokenNumber = 100)
 print(respnse.choice[2].text)
 ```
 
-### Output :<br>
+#### Output :<br>
 ```
 "GLT-1: gougleai.models.glt.1"
 "Hello Gougle ! What can I do for you today ?"
 ```
 
-## In `javascript` :<br>
+### In `javascript` :<br>
 ```
 const modelsList = gougleai.models.list;
 
@@ -49,7 +49,7 @@ const response = gougleai.complete(model, prompt, 100);
 console.log(response.choice[2].text);
 ```
 
-### Output :<br>
+#### Output :<br>
 ```
 "GLT-1: gougleai.models.glt.1"
 "Ok, me too I just want to talk with you !"
