@@ -3,11 +3,11 @@ GLT (Gougle Language Transformer) - 1 is the first version a language AI model d
 
 # Usages
 To use GLT-1, you can use `pip` for `python` or `cdn` for `javascript`.<br>
-With `pip` in `cmd` :<br>
+#### With `pip` in `cmd` :<br>
 ```
 pip install gougleai
 ```
-Or with `cdn` in `html` page :<br>
+#### Or with `cdn` in `html` page :<br>
 ```
 <script src="https://api.withgougle.cf/ai/glt/1" type="text/javascript"></script>
 ```
