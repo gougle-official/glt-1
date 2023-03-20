@@ -24,7 +24,7 @@ modelsList = gougleai.models.list
 
 print(modelsList)
 
-model = gougleai.models.glt.1
+model = gougleai.models.glt.glt1
 prompt = "Hello ! I'm Gougle."
 
 response = gougleai.complete(model = model, prompt = prompt, tokenNumber = 100)
@@ -34,7 +34,7 @@ print(respnse.choice[2].text)
 
 #### Output :<br>
 ```
-"GLT-1: gougleai.models.glt.1"
+"GLT-1: gougleai.models.glt.glt1"
 "Hello Gougle ! What can I do for you today ?"
 ```
 
@@ -46,7 +46,7 @@ const modelsList = gougleai.models.list;
 
 console.log(modelsList);
 
-const model = gougleai.models.glt.1;
+const model = gougleai.models.glt.glt1;
 const prompt = "Hello Gougle User ! I just want to talk with you.";
 
 const response = gougleai.complete(model, prompt, 100);
@@ -56,6 +56,6 @@ console.log(response.choice[2].text);
 
 #### Output :<br>
 ```
-"GLT-1: gougleai.models.glt.1"
+"GLT-1: gougleai.models.glt.glt1"
 "Ok, me too I just want to talk with you !"
 ```
