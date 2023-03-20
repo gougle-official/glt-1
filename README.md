@@ -9,5 +9,11 @@ pip install gougleai
 ```
 Or with `cdn` in `html` page :<br>
 ```
-<script src="https://api.withgougle.cg/glt/1" type="text/javascript">
+<script src="https://api.withgougle.cf/ai/glt/1" type="text/javascript">
+```
+
+# Exemple
+In `python` :<br>
+```
+import gougleai
 ```
