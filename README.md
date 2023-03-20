@@ -5,17 +5,17 @@ To use GLT-1, you must have install `gougleai` library for `python` or `javascri
 # Usages
 To use GLT-1, you can use `pip` for `python` or `cdn` for `javascript`.<br>
 #### With `pip` in `cmd` :<br>
-```
+```shell
 pip install gougleai
 ```
 #### Or with `cdn` in `html` page :<br>
-```
+```html
 <script src="https://api.withgougle.cf/ai/glt/1" type="text/javascript"></script>
 ```
 
 # Exemple
 ### In `python` :<br>
-```
+```python
 import gougleai
 
 gougleai.apiKey = "YOUR_API_KEY_HERE"
@@ -39,7 +39,7 @@ print(respnse.choice[2].text)
 ```
 
 ### In `javascript` :<br>
-```
+```javascript
 gougleai.apiKey = "YOUR_API_KEY_HERE";
 
 const modelsList = gougleai.models.list;
