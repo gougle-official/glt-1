@@ -18,6 +18,8 @@ pip install gougleai
 ```
 import gougleai
 
+gougleai.apiKey = "YOUR_API_KEY_HERE"
+
 modelsList = gougleai.models.list
 
 print(modelsList)
@@ -38,6 +40,8 @@ print(respnse.choice[2].text)
 
 ### In `javascript` :<br>
 ```
+gougleai.apiKey = "YOUR_API_KEY_HERE";
+
 const modelsList = gougleai.models.list;
 
 console.log(modelsList);
