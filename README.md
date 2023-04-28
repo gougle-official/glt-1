@@ -5,7 +5,7 @@ To use GLT-1, you must have install `gougleai` library for `python` or `javascri
 # Usages
 To use GLT-1, you can use `pip` for `python` or `cdn` for `javascript`.<br>
 #### With `pip` in `cmd` :<br>
-```shell
+```bash
 pip install gougleai
 ```
 #### Or with `cdn` in `html` page :<br>
@@ -29,7 +29,7 @@ prompt = "Hello ! I'm Gougle."
 
 response = gougleai.complete(model = model, prompt = prompt, tokenNumber = 100)
 
-print(respnse.choice[2].text)
+print(response.choice[2].text)
 ```
 
 #### Output :<br>
