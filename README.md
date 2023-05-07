@@ -1,5 +1,5 @@
 # GLT-1
-GLT (Gougle Language Transformer) - 1 is the first version a language AI model developped by Gougle based to GPT-3.5-Turbo/GPT-4.
+GLT (Gougle Language Transformer) - 1 is the first version a language AI model developped by Gougle based to GPT-3.5-Turbo and GPT-4.
 To use GLT-1, you must have install `gougleai` library for `python` or `javascript` at https://www.github.com/gougle-official/gougleai.
 
 # Usages
